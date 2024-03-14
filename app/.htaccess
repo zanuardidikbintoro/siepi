@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^app\.ikmpurworejo\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.app\.ikmpurworejo\.com$
+RewriteRule ^/?$ "https\:\/\/play\.google\.com\/store\/apps\/details\?id\=com\.edumob\.siepi" [R=301,L]
+
